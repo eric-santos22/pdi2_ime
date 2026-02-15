@@ -1,0 +1,13 @@
+[workspace]
+authors = ["EricDuSantos <ericduarteds@gmail.com>"]
+channels = ["conda-forge"]
+name = "PDI II"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+opencv = ">=4.13.0,<5"
+numpy = ">=2.4.2,<3"
